@@ -59,7 +59,7 @@ ESLint can automatically fix some JS problems (autofix). Old files are saved in 
 >	 - no more cyclical calls.
 > * 1.0.3
 >	 - added new modules:
->   * BEM Validator (Block Element Modifier (BEM) )
+>		* BEM Validator (Block Element Modifier (BEM) )
 >		* HTML Validator (HTMLHint Static code analysis tool for HTML - final check after all modifications)
 > * 1.0.4
 >	 - added disable option:
@@ -67,10 +67,10 @@ ESLint can automatically fix some JS problems (autofix). Old files are saved in 
 >		* BEM Validator
 >		* HTML Validator
 > * 1.0.5
->  - added option:
->   * Purge CSS
->   * Autocomplete path in HTML
->	  * JS Bags AutoFix by ESLint 8
+>	 - added option:
+>		* Purge CSS
+>		* Autocomplete path in HTML
+>		* JS Bags AutoFix by ESLint 8
 
 > Information about the modules used is given in [Modules.md](./Modules.md)
 
