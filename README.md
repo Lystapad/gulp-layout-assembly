@@ -3,7 +3,7 @@
 ### Launch of the projects
 `npm install`
 ### Project development
-npm start
+`npm start`
 ### Live HTML
 `http://localhost:8080`
 ### Production
