@@ -7,7 +7,7 @@ npm install
 npm start
 
 ## Live HTML
-http://localhost:3000
+`http://localhost:8080`
 
 ## Production
 npm run build
@@ -16,7 +16,7 @@ npm run build
 npm run clean
 
 ## Lighthouse analyzes
-[Lighthouse analyzes web apps and web pages, collecting modern performance metrics and insights on developer best practices.](https://github.com/GoogleChrome/lighthouse)
+[Lighthouse analyzes web apps and web pages, collecting modern performance metrics and insights on developer best practices.](https://github.com/GoogleChrome/lighthouse)<br>
 npm run lighthouse
 
 ## Packaging the layout to a "zip" archive
