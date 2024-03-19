@@ -1,4 +1,4 @@
-# "devDependencies" installed and used:
+## "devDependencies" installed and used:
 * "browser-sync": "^3.0.2", [Browser Sync](https://www.npmjs.com/package/browser-sync)
 > Live reload & Browser Syncing
 * "cssnano": "^6.0.5", [CSSnano](https://www.npmjs.com/package/cssnano)
@@ -66,13 +66,13 @@
 * "gulp-postcss": "^10.0.0", [Gulp PostCSS](https://www.npmjs.com/package/gulp-postcss)
 > PostCSS gulp plugin to pipe CSS through several plugins, but parse CSS only once.
 
-# Useful modules installed by "devDependencies" - Extract:
+## Useful modules installed by "devDependencies" - Extract:
 
-## WEB
+### WEB
 * "parcel": "^2.11.0", [Parcel](https://www.npmjs.com/package/parcel)
 >Parcel is a zero configuration WEB application bundler.
 
-## JavaScript & TypeScript
+### JavaScript & TypeScript
 * "gts": "^5.0.0", [Google's TypeScript style](https://www.npmjs.com/package/gts)
 > Google's TypeScript style guide, and the configuration for our formatter, linter, and automatic code fixer.
 > Last: 5.2.0
@@ -80,16 +80,16 @@
 > Delightful JavaScript Testing.
 > Last: 29.7.0
 
-## Texts & Strings
+### Texts & Strings
 * "camel-case": "^8.0.0", [camelCase](https://www.npmjs.com/package/camelcase)
 > Convert a dash/dot/underscore/space separated string to camelCase or PascalCase
 
-## Logs
+### Logs
 * "fancy-log": "^1.3.3", [Fancy-log](https://www.npmjs.com/package/fancy-log)
 > Log things, prefixed with a timestamp.
 > Last: 2.0.0
 
-## Colors
+### Colors
 * "ansi-colors": "^4.1.1", [ANSI colors](https://www.npmjs.com/package/ansi-colors)
 > Add ANSI colors to your text and symbols in the terminal.
 ! Doesn't work from box
@@ -98,7 +98,7 @@
 > Chalk is easy to use API where you just chain and nest the styles you want.
 > Last: 5.3.0
 
-## Oter
+### Oter
 * "node-notifier": "^9.0.1", [Node Notifier](https://www.npmjs.com/package/node-notifier)
 > Send cross platform native notifications using Node.js.
 > Last: 10.0.1
