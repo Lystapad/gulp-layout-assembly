@@ -1,26 +1,20 @@
 # GULP assembly for layout automation (Pug, Stylus)
 
-## Launch of the projects
-npm install
-
-## Project development
+### Launch of the projects
+`npm install`
+### Project development
 npm start
-
-## Live HTML
+### Live HTML
 `http://localhost:8080`
-
-## Production
-npm run build
-
-## Cleaning
-npm run clean
-
-## Lighthouse analyzes
+### Production
+`npm run build`
+### Cleaning
+`npm run clean`
+### Lighthouse analyzes
 [Lighthouse analyzes web apps and web pages, collecting modern performance metrics and insights on developer best practices.](https://github.com/GoogleChrome/lighthouse)<br>
-npm run lighthouse
-
-## Packaging the layout to a "zip" archive
-npm run zip
+`npm run lighthouse`
+### Packaging the layout to a "zip" archive
+`pm run zip`
 
 
 # Using - changes in the configuration (./Gulp/config.js) file
