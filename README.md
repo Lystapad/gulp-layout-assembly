@@ -1,7 +1,7 @@
 ## GULP assembly for layout automation (Pug, Stylus)
 
 ### Launch of the projects
-**`npm install`**
+`npm install`
 ### Project development
 `npm start`
 ### Live HTML
@@ -22,9 +22,11 @@
 ### Input directory
 Input Folder (directory) where the project's source files are located const `inputDir`.<br>
 *Default: `"src"`*
+
 ### Build folder
 Folder for the final build of the project in Production const `buildFolder`.<br>
 *Default: `"build"`*
+
 ### Development folder
 Folder for the working build of the project in Development const `developFolder`.<br>
 *Default: `"dev"`*
