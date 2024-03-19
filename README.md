@@ -58,7 +58,9 @@ You can enable CSS purge by setting const `purgeCSS` to `true`.<br>
 
 ### Font Face Generator
 Generates a CSS file with the font name @font-face and its parameters: font-family, font-style, font-weight. <br>
-[More details](https://www.npmjs.com/package/gulp-fontfacegen-mod)`"del", "add", "skip"` options are available.  const `fontFaceGen`.<br>
+[More details](https://www.npmjs.com/package/gulp-fontfacegen-mod)<br>`del` - will delete the "fonts.css" file if it exists and create a new one.<br>
+`add` - adds to an existing "fonts.css" file or creates a new one.<br>
+`skip` - does not change the existing "fonts.css" file or creates a new one if it does not exist.<br> options are available - const `fontFaceGen`.<br>
 *Default: `"add"`*
 
 ### ESLint 8
