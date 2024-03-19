@@ -50,8 +50,8 @@ You can disable BEM Validator by setting const const `bemValidator` to `false`.<
 *Default: `"true"`*.
 
 ### Purge CSS
-Purge CSS is a feature for removing unused CSS
-[!WARNING] Be VERY careful - disabled by default!
+Purge CSS is a feature for removing unused CSS<br>
+>[!WARNING] Be VERY careful - disabled by default!
 You can enable CSS purge by setting const `purgeCSS` to `true`.<br>
 *Default: `"false"`*.
 
