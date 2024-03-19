@@ -1,7 +1,7 @@
 ## GULP assembly for layout automation (Pug, Stylus)
 
 ### Launch of the projects
-`**npm install**`
+**`npm install`**
 ### Project development
 `npm start`
 ### Live HTML
@@ -20,33 +20,42 @@
 ## Using - changes in the configuration (./gulp/config.js) file
 
 ### Input directory
-Input Folder (directory) where the project's source files are located const `inputDir`. *Default `"src"`*
+Input Folder (directory) where the project's source files are located const `inputDir`.<br>
+*Default: `"src"`*
 ### Build folder
-Folder for the final build of the project in Production const `buildFolder`. *Default `"build"`*
+Folder for the final build of the project in Production const `buildFolder`.<br>
+*Default: `"build"`*
 ### Development folder
-Folder for the working build of the project in Development const `developFolder`. *Default `"dev"`*
+Folder for the working build of the project in Development const `developFolder`.<br>
+*Default: `"dev"`*
 
 ### Notification messages
-You can disable annoying messages (Mac Notification Center, Linux notifications or Windows native toaster) by setting const `notify` to `false` *Default `"true"`*. Or you can turn off notifications in the your OS.
+You can disable annoying messages (Mac Notification Center, Linux notifications or Windows native toaster) by setting const `notify` to `false`<br>
+*Default: `"true"`*. Or you can turn off notifications in the your OS.
 
 ### HTML autocomplete path
-HTML autocomplete path will be relative or absolute for each target file. Absolute File Paths (../dir) or Relative File Paths. You can use Absolute Paths by setting const `relativePath` to `false`. *Default `"true"`*
+HTML autocomplete path will be relative or absolute for each target file. Absolute File Paths (../dir) or Relative File Paths. You can use Absolute Paths by setting const `relativePath` to `false`.<br>
+*Default: `"true"`*
 
 ### HTML Validator
 [HTMLHint](https://htmlhint.com/)
-Static code analysis tool for HTML. You can disable HTML Validator by setting const const `htmlValidator` to `false` *Default `"true"`*.
+Static code analysis tool for HTML. You can disable HTML Validator by setting const const `htmlValidator` to `false`.<br>
+*Default: `"true"`*.
 
 ### BEM Validator
 [Block Element Modifier](https://bem.info/)
-You can disable BEM Validator by setting const const `bemValidator` to `false` *Default `"true"`*.
+You can disable BEM Validator by setting const const `bemValidator` to `false`.<br>
+*Default: `"true"`*.
 
 ### Purge CSS
 Purge CSS is a feature for removing unused CSS
 [!WARNING] Be VERY careful - disabled by default!
-You can enable CSS purge by setting const `purgeCSS` to `true` *Default `"false"`*.
+You can enable CSS purge by setting const `purgeCSS` to `true`.<br>
+*Default: `"false"`*.
 
 ### Font Face Generator
-Generates a CSS file with the font name @font-face and its parameters: font-family, font-style, font-weight. [More details](https://www.npmjs.com/package/gulp-fontfacegen-mod)`"del", "add", "skip"` options are available.  const `fontFaceGen`. *Default `"add"`*
+Generates a CSS file with the font name @font-face and its parameters: font-family, font-style, font-weight. [More details](https://www.npmjs.com/package/gulp-fontfacegen-mod)`"del", "add", "skip"` options are available.  const `fontFaceGen`.<br>
+*Default: `"add"`*
 
 ### ESLint 8
 "Rules":
@@ -61,7 +70,8 @@ The following checks are commented out:
 if you need it just uncomment in `./gulp/js.js`
 
 ### JS Bags AutoFix
-ESLint can automatically fix some JS problems (autofix). Old files are saved in `SRC/js/js_old` (with each new launch the files will be overwritten). You can disable JS Bags AutoFix by setting const `jsAutoFix` to `"false"` *Default `"true"`*.
+ESLint can automatically fix some JS problems (autofix). Old files are saved in `SRC/js/js_old` (with each new launch the files will be overwritten). You can disable JS Bags AutoFix by setting const `jsAutoFix` to `"false"`.<br>
+*Default: `"true"`*.
 
 > Version:
 > * 1.0.2
