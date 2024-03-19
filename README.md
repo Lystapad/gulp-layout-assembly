@@ -68,18 +68,18 @@ Const `fontFaceGen` options available:<br>
 ### ESLint 8
 "Rules":
 * `"strict"` *"use strict"* literal at the beginning of a script or function body. It enables strict mode semantics.
-* `"semi"` - semicolon ( **;** ) at the end of a sentence.
+* `"semi"` - semicolon ( **`;`** ) at the end of a sentence.
 * `"no-control-regex"` - disabled regular expression control..
 * `"eqeqeq"` - expected values or strict condition set as warning.
 
 The following checks are commented out:
-* `"curly": "error"` - getting error for curly brace ( {} ) on line  group statements within a control flow structure like if, else, for, while, and functions.
+* `"curly": "error"` - getting error for curly brace ( **`{}`** ) on line  group statements within a control flow structure like if, else, for, while, and functions.
 * `"quotes": ["error", "double"]` - getting error for using double quotes in a string in JS<br>
 If you need it just uncomment in `./gulp/js.js`
 
 ### JS Bags AutoFix
 ESLint can automatically fix some JS problems (autofix). Old files are saved in `SRC/js/js_old` (with each new launch the files will be overwritten). You can disable JS Bags AutoFix by setting const `jsAutoFix` to `"false"`.<br>
-*Default: **"true"***.
+*Default: **`"true"`***.
 
 > Version:
 > * 1.0.2
