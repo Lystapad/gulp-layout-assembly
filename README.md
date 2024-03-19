@@ -53,20 +53,20 @@ if you need it just uncomment in `./Gulp/js.js`
 ESLint can automatically fix some JS problems (autofix). Old files are saved in `SRC/js/js_old` (with each new launch the files will be overwritten). You can disable JS Bags AutoFix by setting const `const jsAutoFix` to `false` *Default "true"*.
 
 > Version:
-> 1.0.2
+> *1.0.2
 >	- written intentionally with "require";
 >	- removed the use of "global";
 >	- no more cyclical calls.
-> 1.0.3
+> *1.0.3
 >	- added new modules:
 >		* BEM Validator (Block Element Modifier (BEM) )
 >		* HTML Validator (HTMLHint Static code analysis tool for HTML - final check after all modifications)
-> 1.0.4
+> *1.0.4
 >	- added disable option:
 >		* Notification messages
 >		* BEM Validator
 >		* HTML Validator
-> 1.0.5
+> *1.0.5
 >	- added option:
 >		* Purge CSS
 > 	* Autocomplete path in HTML
