@@ -7,8 +7,6 @@
 		"start": "gulp start",
 		"build": "gulp build",
 		"clean": "gulp clean",
-		"lighthouse": "gulp build && gulp lighthouse",
-		"zip": "gulp createZip"
 	},
 	"files": [
 		"gulp",
