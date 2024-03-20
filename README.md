@@ -1,5 +1,5 @@
 ## GULP assembly for layout automation (Pug, Stylus)
->version 1.0.5 (require)
+>version 1.0.3 (require)
 
 ### Launch of the projects
 `npm install`
