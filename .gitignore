@@ -1,0 +1,24 @@
+# Service files added by the operating system
+.DS_Store
+Thumbs.db
+
+# Editor configuration and temporary files
+.vscode
+.idea
+Notes.txt
+
+# Temporary files
+*.log*
+reports/
+test/
+old
+Notes.*
+
+# Dependencies that are installed
+node_modules
+package-lock.json
+dist
+
+# Folder with project files
+build/
+dev/

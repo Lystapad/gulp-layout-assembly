@@ -1,4 +1,5 @@
 ## GULP assembly for layout automation (Pug, Stylus)
+>version 1.0.5 (require)
 
 ### Launch of the projects
 `npm install`
@@ -10,11 +11,6 @@
 `npm run build`
 ### Cleaning
 `npm run clean`
-### Lighthouse analyzes
-[Lighthouse analyzes web apps and web pages, collecting modern performance metrics and insights on developer best practices.](https://github.com/GoogleChrome/lighthouse)<br>
-`npm run lighthouse`
-### Packaging the layout to a "zip" archive
-`npm run zip`
 
 
 ## Using - changes in the configuration (./gulp/config.js) file
@@ -73,8 +69,8 @@ Const `fontFaceGen` options available:<br>
 * `"eqeqeq"` - expected values or strict condition set as warning.
 
 The following checks are commented out:
-* `"curly": "error"` - getting error for curly brace ( **`{ }`** ) on line  group statements within a control flow structure like if, else, for, while, and functions.
-* `"quotes": ["error", "double"]` - getting error for using double quotes ( **`" "`** ) in a string in JS<br>
+* `"curly": "error"` - getting error for curly brace ( **`{}`** ) on line  group statements within a control flow structure like if, else, for, while, and functions.
+* `"quotes": ["error", "double"]` - getting error for using double quotes ( **`""`** ) in a string in JS<br>
 If you need it just uncomment in `./gulp/js.js`
 
 ### JS Bags AutoFix
@@ -90,16 +86,7 @@ ESLint can automatically fix some JS problems (autofix). Old files are saved in 
 >	 - added new modules:
 >		* BEM Validator (Block Element Modifier (BEM) )
 >		* HTML Validator (HTMLHint Static code analysis tool for HTML - final check after all modifications)
-> * 1.0.4
->	 - added disable option:
->		* Notification messages
->		* BEM Validator
->		* HTML Validator
-> * 1.0.5
->	 - added option:
->		* Purge CSS
->		* Autocomplete path in HTML
->		* JS Bags AutoFix by ESLint 8
+
 
 > Information about the modules used is given in [Modules.md](./Modules.md)
 
