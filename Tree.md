@@ -1,6 +1,6 @@
 ﻿### Input directory
 ```
-SRC // Working folder with project sources
+SRC > Working folder with project sources
  ├── files <!-- Folder for some project files... -->
  │    ├── images <!-- e.g. images -->
  │    └── *.* pdf, doc, videos and others
