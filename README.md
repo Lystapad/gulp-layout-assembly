@@ -87,7 +87,7 @@ ESLint can automatically fix some JS problems (autofix). Old files are saved in 
 >		* BEM Validator (Block Element Modifier (BEM) )
 >		* HTML Validator (HTMLHint Static code analysis tool for HTML - final check after all modifications)
 > * 1.0.4
->  - live reload patched
+>	 - live reload patched;
 
 > Information about the modules used is given in [Modules.md](./Modules.md)
 
