@@ -1,4 +1,4 @@
-//"main": "gulpfile.js" -- version 1.0.5 (require)
+//"main": "gulpfile.js" -- version 1.0.4 (require)
 const globalSet = require("./gulp/config");
 const modules = require("./gulp/modules");
 const tasks = require("./gulp/tasks");

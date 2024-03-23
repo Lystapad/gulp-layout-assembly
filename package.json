@@ -1,6 +1,6 @@
 {
 	"name": "gulp-layout-assembly",
-	"version": "1.0.3",
+	"version": "1.0.4",
 	"description": "GULP assembly for layout automation (Pug, Stylus) Ver. 1.0.3",
 	"main": "gulpfile.js",
 	"scripts": {
@@ -12,7 +12,8 @@
 		"gulp",
 		"SRC",
 		"gulpfile.js",
-		"Modules.md"
+		"Modules.md",
+		"Tree.md"
 	],
 	"repository": {
 		"type": "git",

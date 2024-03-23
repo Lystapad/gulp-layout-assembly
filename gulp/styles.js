@@ -97,5 +97,7 @@ module.exports = function styles() {
 		.pipe(cleanCSS(cleanCSSopt, details => report(details)))
 		.pipe(modules.gulpIf(!mode, rename({ suffix: ".min" })))
 		.pipe(modules.gulpIf(!mode, rename({ dirname: "/css" })))
-		.pipe(modules.gulp.dest(outputDir));
+		.pipe(modules.gulp.dest(outputDir))
+		.pipe(modules.gulpIf(mode, modules.browserSync.stream()));
+
 };

@@ -70,5 +70,7 @@ module.exports = function js() {
 				}
 			})
 		)
-		.pipe(modules.gulp.dest(outputDir));
+		.pipe(modules.gulp.dest(outputDir))
+		.pipe(modules.gulpIf(mode, modules.browserSync.stream()));
+
 };

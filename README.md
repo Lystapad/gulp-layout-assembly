@@ -1,5 +1,5 @@
 ## GULP assembly for layout automation (Pug, Stylus)
->version 1.0.3 (require)
+>version 1.0.4 (require)
 
 ### Launch of the projects
 `npm install`
@@ -86,7 +86,8 @@ ESLint can automatically fix some JS problems (autofix). Old files are saved in 
 >	 - added new modules:
 >		* BEM Validator (Block Element Modifier (BEM) )
 >		* HTML Validator (HTMLHint Static code analysis tool for HTML - final check after all modifications)
-
+> * 1.0.4
+> - live reload patched
 
 > Information about the modules used is given in [Modules.md](./Modules.md)
 
